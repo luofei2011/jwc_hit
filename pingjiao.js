@@ -22,6 +22,7 @@ for ( ; i < oTr_len; i++ ) {
             } else {
                 if ( m < 2 ) {
                     oSelect.options[2].selected = true;
+                    m += 1;
                 } else {
                     oSelect.options[3].selected = true;
                 }
