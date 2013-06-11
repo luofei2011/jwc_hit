@@ -13,7 +13,7 @@
 javascript:(function () {
   var newScript = document.createElement('script');
   newScript.type = 'text/javascript';
-  newScript.src = 'https://raw.github.com/luofei2011/jwc_hit/master/pingjiao.js';
+  newScript.src = 'https://raw.github.com/luofei2011/jwc_hit/master/pj.js';
   document.getElementsByTagName('body')[0].appendChild(newScript);
 })();
 
